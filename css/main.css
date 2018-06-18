@@ -1,1 +1,17 @@
+.navbar, .feet {
+	background-color: #9575cd;
+	color: #ede7f6;
+}
 
+.navbar-brand {
+	font-size: 30px;
+}
+
+.services {
+	background-color: lavender;
+	color: purple;
+}
+
+h2 {
+	text-align: center;
+}
