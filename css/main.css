@@ -1,10 +1,17 @@
-.navbar, .feet {
+.navbar, 
+.top {
 	background-color: #9575cd;
 	color: #ede7f6;
 }
 
 .navbar-brand {
+	font-size: 40px;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+.nav {
 	font-size: 30px;
+	font-family: 'Berkshire Swash', cursive;
 }
 
 .services {
@@ -12,6 +19,28 @@
 	color: purple;
 }
 
-h2 {
+h2, 
+h3, 
+h4 {
 	text-align: center;
+	font-family: 'Berkshire Swash', cursive;
 }
+
+.table {
+	 color: #9575cd;
+
+}
+
+#eyelash, h2.lash {
+	background-color: lightgreen;
+	color: white;
+}
+
+p {
+	font-family: 'Playfair Display', serif;
+}
+
+p.pt-3 {
+	font-size: 20px;
+}
+

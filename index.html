@@ -11,49 +11,126 @@
 		<!-- This will make animate libraray work -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
+		<!-- This allows me to use Google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Playfair+Display" rel="stylesheet">
+
 		<!-- This will make bootstrap css work -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
 		<!-- This connects my css external file to the index.html-->
 		<link rel="stylesheet" href="css/main.css">
 	</head>
+	
 	<body>
 
 <!-- NAVBAR HEADER-->
-	<nav class="navbar pl-5">
+	<!-- <nav class="navbar pl-5">
 	  <span class="navbar-brand mb-0 h1">SF Nail Spa
 	  	<h5 class="pr-5">Nails, Waxing, & Eyelash Extensions</h5>
 	  </span>
+	</nav> -->
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container">
+	    <div class="navbar-header">
+	    	<span class="navbar-brand mb-0 h1">SF Nail Spa
+	     	</span>
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	      </button>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a class="text-white" href="#nails">Nails</a></li>
+	        <li><a class="text-white" href="#waxing">Waxing</a></li>
+	        <li><a class="text-white" href="#special">Special Services</a></li>
+	        <li><a class="text-white" href="#eyelash">Eyelash Extension</a></li>
+	      </ul>
+	    </div>
+	  </div>
 	</nav>
+
 <!-- END NAVBAR HEADER -->
 
-<!-- SOAK IMAGE -->
-	<div class="feet container-fluid text-center pb-5">
+<!-- TOP SECTION -->
+	<div class="top container-fluid text-center pb-5">
 		<img src="http://www.threadsbeautybar.com/wp-content/uploads/2015/07/Feet-Soak.jpg" alt="feet soakig in a bowl">
-	</div>
-<!-- END SOAK IMAGE -->
+		<p class="pt-3">We are committed to high quality services. In our strive to be organic and chemical free, we offer natural and environmental-friendly products.</p>
+		<h3>Hours of Operation</h3>
+			<p>Tuesday-Saturday 9:30am-6:30pm<br>Sunday 9:30am-6pm<br>CLOSED ON MONDAYS</p>
 
-<!-- SERVICES SECTION -->
-	<div class="services container-fluid py-4">
-		<h2>Services</h2>
+		<h3>Located</h3>
+			<p>1324 Noriega Street<br>San Francisco, CA 94122</p>
+		<h4>
+			Call (415)564-5581 to book an appointment
+		</h4>
+
+	
+	<!-- <table class="table table-striped table-secondary w-50">
+	  <thead>
+	    <tr>
+	      <th scope="col">Day</th>
+	      <th scope="col">Hours</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <td>Monday</td>
+	      <td>CLOSED</td>
+	    </tr>
+	    <tr>
+	      <td>Tuesday</td>
+	      <td>9:30am - 6:30pm</td>
+	    </tr>
+	    <tr>
+	      <td>Wednesday</td>
+	      <td>9:30am - 6:30pm</td>
+	    </tr>
+	    <tr>
+	      <td>Thursday</td>
+	      <td>9:30am - 6:30pm</td>
+	    </tr>
+	    <tr>
+	      <td>Friday</td>
+	      <td>9:30am - 6:30pm</td>
+	    </tr>
+	    <tr>
+	      <td>Saturday</td>
+	      <td>9:30am - 6:30pm</td>
+	    </tr>
+	    <tr>
+	      <td>Sunday</td>
+	      <td>9:30am - 6:00pm</td>
+	    </tr>
+	  </tbody>
+	</table> -->
+	</div>
+<!-- END TOP SECTION -->
+
+	<div id="nails" class="services container-fluid py-4">
+<!-- NAILS SECTION -->
+		<h2>Nail Services</h2>
+			<p class="text-center">Choose from a variety of DBP, Toluene, formaldehyde free polishes: including O.P.I., Essie, and Creative Nail Design (CND).</p>
 		<div class="row pt-5">
-			<div class="col-6 mx-auto">
+			<div class="col-4 mx-auto">
 				<h4>Manicure Care</h4>
 					<p>
-					Express MANI &emsp; 15<br>Complete nail care - cut, shape, trim cuticles.<br> Finished w/ choice of polish.
+					Express MANI &emsp; 15<br>Complete nail care - cut, shape, trim cuticles. Finish with a choice of polish.
 					</p>
 
 					<p>
 					Regular MANI &emsp; 20<br> 
-					Complete nail care with 5 mins warm lotion hand massage.<br>Finished with hot towels wrap and choice of polish.	
+					Complete nail care with a 5 minute warm lotion hand massage. Finish with hot towels wrap and a choice of polish.	
 					</p>
 
 					<p>
-					Get MANI &emsp; 30<br> Complete nail care. Choice of gel polish. <br> Finished with 5 mins hand massage.
+					Get MANI &emsp; 30<br> Complete nail care, and a choice of gel polish. Finish with a 5 minute hand massage.
 					</p>
 
 					<p>
-					Lil' Miss MANI &emsp; 15<br>For 10-year-olds and younger.<br>Cut, file, mini warm lotion massage, choice of poloish.
+					Lil' Miss MANI &emsp; 15<br>For 10-year-olds or younger. Cut, file, mini warm lotion massage, and a choice of polish.
 					</p>
 
 					<p>
@@ -76,39 +153,180 @@
 					<p>Extra Massage<br>10 min &emsp; 15<br>15 min &emsp; 20</p>
 
 			</div>
-			<div class="col-6 mx-auto">
+			<div class="col-4 mx-auto">
 				<h4>Pedicure Care</h4>
 					<p>
 					Express PEDI &emsp; 25<br>
-					Soak your feet in fresh herbs and essential oils to release stress<br> and rejuvenate. Complete nail care - cut, shape, trim cuticles and<br> exfoliation of the heels. Finished with hot towels wrap and <br>choice of polish. 
+					Soak your feet in fresh herbs and essential oils to release stress and rejuvenate. We provide complete nail care - cut, shape, trim cuticles and then exfoliate your heels. Finish with hot towels wrap and a choice of polish. 
 					</p>
 
 					<p>
-					Regular PEDI &emsp; 30<br>Soak your feet in fresh herbs and essential oils bath to calm and<br> soothe your mind. Followed by complete nail care and exfoliation<br>of the heels. Thereafter, follows a 5 mins warm lotion leg massage.<br> Finished with hot towels wrap and choice of polish. 
+					Regular PEDI &emsp; 30<br>Soak your feet in fresh herbs and essential oils bath to calm and soothe your mind. Experience complete nail care and relax as we exfoliate your heels. Enjoy a 5 minute warm lotion leg massage. Finish with hot towels wrap and a choice of polish. 
 					</p>
 
 					<p>
-					Gel PEDI &emsp; 40<br>Soak your feet in fresh herbs and essential oils bath. Complete<br>nail care and exfoliation of the heels. Choice of gel polish. Finished<br> with 5 mins leg massage and hot towels wrap. 
+					Gel PEDI &emsp; 40<br>Soak your feet in fresh herbs and essential oils bath. Experience complete nail care and relax as we exfoliate your heels. Finish with a 5 minute leg massage, hot towels wrap, and a choice of gel polish. 
 					</p>
 
 					<p class="pt-5">Special PEDI</p>
 
 					<p>
-					AROMATHERAPY (55mins) &emsp; 55<br>This treatement is for individuals who want to experience aroma-<br> therapeutic tranquility and peacefulness. Soak your feet in a minty<br>  peppermint bath. Complete nail care and exfoliation of the heels.<br>Followed with a 10 mins warm lotion leg massage. Thereafter, <br>followed by a refreshing minty clay mask on the feet. Finished<br>  with hot towels wrap and choice of polish. 
+					AROMATHERAPY (55min) &emsp; 55<br>This treatement is for individuals who want to experience aroma- therapeutic tranquility and peacefulness. Soak your feet in a minty  peppermint bath. Experience complete nail care and unwind as we exfoliate your heels. Relax with a 10 minute warm lotion leg massage, and then a refreshing minty clay mask on the feet. Finish with hot towels wrap and a choice of polish. 
 					</p>
 
 					<p>
-					CALLUS Treatement (60mins) &emsp; 60<br>Perfect for dry and cracked heels. Soak your feet in a warm milk<br>  bath. Complete nail care, followed by callus treatement on heels -<br>treats callus abrasions and exfoliates dead skin. Relax with<br> a 10 mins warm lotion leg massage. Next, enjoy a  minty clay <br> mask on the feet. Finished with hot towels wrap and choice of<br>polish.
+					CALLUS Treatement (60min) &emsp; 60<br>Perfect for dry and cracked heels. Soak your feet in a warm milk bath. Experience complete nail care and a  callus treatement on heels - treats callus abrasions and exfoliates dead skin. Relax with a 10 minute warm lotion leg massage. Next, enjoy a  minty clay mask on the feet. Finish with hot towels wrap and a choice of polish.
 					</p>
 			</div>
 		</div>
-		<div class="row pt-5">
+	<!-- END NAIL SECTION -->
+
+	<!-- WAXING SECTION -->
+		<div id="waxing" class="row pt-5">
 			<div class="col-6 mx-auto">
-				<h4>Waxing Services</h4>
-					<p></p>
+				<h2>Waxing Services</h2>
+					<p class="pb-5">Our highly skilled estheticians will safely & quickly eliminate & remove unwanted hair in specified areas. Formulated treatements are applied before and after hair removal to prepare, protect, & smooth your skin.</p>
+
+					<p>Eyebrow &emsp; 15<br>
+					Lip &emsp; 8<br>Eyebrow & Lip &emsp; 20<br>Chin &emsp; 10<br>Sideburn &emsp; 10<br>Full Face &emsp; 30<br>(Eyebrow, lip, & chin)
+					</p>
+
+					<p>
+					Underarm &emsp; 15<br>Forearm &emsp; 20<br>Full Arm &emsp; 35
+					</p>
+
+					<p>
+					Lower Leg &emsp; 25<br>Upper Leg &emsp; 25<br>
+					Full Leg &emsp; 50<br>
+					Full Leg & Bikini Line &emsp; 60 & up<br>
+					</p>
+
+					<p>
+					Bikini Line &emsp; 20 & up<br>
+					Thigh & Bikini Line &emsp;45 & up <br>
+					Brazilian &emsp; 40 & up<br>
+					</p>
+
+					<p class="pb-5">
+					Male Back Wax &emsp; 40 & up<br>
+					Male Chest &emsp; 30 & up<br>
+					</p>
+
+					<p class="pt-5">
+					Please note: To optimize results and prevent skin sensitivity, please refrain from working out and avoid spa amenities prior to and after all waxing services.
+					</p>
+		</div>
+	</div>
+	<!-- END WAXING SECTION -->
+
+	<!-- SPECIAL SERVICES -->
+	<div id="special" class="row py-5">
+		<span class="border border-secondary mx-auto w-60">
+			<div class="col-8 pt-3">
+					<h4>Special Services</h4>
+						<p class="box">
+						MANI & PEDI with Eyebrow or Lip &emsp; 55<br>
+						Gel MANI & Gel PEDI &emsp;65<br>
+						Eyebrow & Lip &emsp; 20<br>
+						Underarm & Lip &emsp; 25<br>
+						</p>
+			</div>
+		</span>
+	</div>
+	<!-- END SPECIAL SERVICES -->
+
+	<!-- HEALTH & SAFETY -->
+	<div class="row">
+		<!-- <span class="border border-secondary mx-auto w-50"> -->
+			<div class="col-6 mx-auto">
+					<h4>Health & Safety</h4>
+						<p>
+						We are committed in keeping the safety & well being of all clients and staff. We set high standards in sterilization and sanitation of all implements. We use Hospital Grade disinfectants & sterile equipments. All nonsterile implements such as nail buffers, files, foot pumices, & wax applicators are disposed after each use.
+						</p>
+			</div>
+		<!-- </span> -->
+	</div>
+</div>
+
+	<!-- END HEALTH & SAFETY -->
+
+<!-- EYELASH SECTION -->
+	<div class="container-fluid">
+		<div id="eyelash" class="row py-5">
+			<div class="col-12">
+				<h2>Eyelash Extension Menu</h2>
+				<p class="col-8 mx-auto text-center">Our experienced eyelash extension stylist will customize, design, and tailor lash extensions to each individual's unique eye shape. These eyelashes enhance your apperance and eliminate the need to use mascara everyday.</p>
+			</div>
+			<table class="col-4 mx-auto table table-striped table-secondary w-50">
+			  <thead>
+			    <tr>
+			      <th scope="col">Type of Lashes</th>
+			      <th scope="col">Price</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <td>MINK/2D:</td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <td>FULL SET</td>
+			      <td>150</td>
+			    </tr>
+			    <tr>
+			      <td>FILL in 2 Weeks</td>
+			      <td>75</td>
+			    </tr>
+			    <tr>
+			      <td>FILL in 3 Weeks</td>
+			      <td>90</td>
+			    </tr>
+			    <br>
+			    <tr>
+			      <td>SYNTHETIC MINK:</td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <td>FULL SET</td>
+			      <td>120</td>
+			    </tr>
+			    <tr>
+			      <td>FILL in 2 weeks</td>
+			      <td>60</td>
+			    </tr>
+			    <tr>
+			      <td>FILL in 3 weeks</td>
+			      <td>75</td>
+			    </tr>
+			    <tr>
+			      <td>EXTREME LASHES(3D):</td>
+			      <td></td>
+			    </tr>
+			    <tr>
+			      <td>FULL SET</td>
+			      <td>200</td>
+			    </tr>
+			    <tr>
+			      <td>FILL in 2 weeks</td>
+			      <td>90</td>
+			    </tr>
+			    <tr>
+			      <td>FILL in 3 weeks</td>
+			      <td>110</td>
+			    </tr>
+			    <tr>
+			      <td>Lash CORRECTION</td>
+			      <td>20</td>
+			    </tr>
+			    <tr>
+			      <td>Lash REMOVAL</td>
+			      <td>25</td>
+			    </tr>
+			  </tbody>
+			</table>
 	</div>
 
-<!-- END SERVICES SECTION -->
+
 	
 	<!-- This gives access to the jquery library -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
